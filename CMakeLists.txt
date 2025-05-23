@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.10)
-project(AutomobileLibrary)
+project(AutomobileMaintenanceLibrary)
 
 set(CMAKE_CXX_STANDARD 17)
 
-include_directories(include sqlite)
+# Make sure compiler can find headers in the "include" directory
+include_directories(include)
 
-add_library(sqlite3 STATIC sqlite/sqlite3.c)
-
+# Main application
 add_executable(main
     src/main.cpp
     src/Automobile.cpp
@@ -14,4 +14,13 @@ add_executable(main
     src/MaintenanceLibrary.cpp
 )
 
-target_link_libraries(main sqlite3)
+# Unit tests
+add_executable(unit_tests
+    tests/test.cpp
+    src/Automobile.cpp
+    src/MaintenanceTask.cpp
+    src/MaintenanceLibrary.cpp
+)
+
+enable_testing()
+add_test(NAME RunTests COMMAND unit_tests)

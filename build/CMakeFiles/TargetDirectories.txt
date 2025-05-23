@@ -1,4 +1,5 @@
-D:/Companies/KPIT/Project/Automobile_Maintenance_Library/build/CMakeFiles/sqlite3.dir
-D:/Companies/KPIT/Project/Automobile_Maintenance_Library/build/CMakeFiles/main.dir
-D:/Companies/KPIT/Project/Automobile_Maintenance_Library/build/CMakeFiles/ALL_BUILD.dir
-D:/Companies/KPIT/Project/Automobile_Maintenance_Library/build/CMakeFiles/ZERO_CHECK.dir
+/d/XCompanies/KPIT/Project/AutomobileMaintenanceLibrary/build/CMakeFiles/main.dir
+/d/XCompanies/KPIT/Project/AutomobileMaintenanceLibrary/build/CMakeFiles/unit_tests.dir
+/d/XCompanies/KPIT/Project/AutomobileMaintenanceLibrary/build/CMakeFiles/test.dir
+/d/XCompanies/KPIT/Project/AutomobileMaintenanceLibrary/build/CMakeFiles/edit_cache.dir
+/d/XCompanies/KPIT/Project/AutomobileMaintenanceLibrary/build/CMakeFiles/rebuild_cache.dir

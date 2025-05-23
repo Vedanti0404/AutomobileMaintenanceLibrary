@@ -1,12 +1,8 @@
-#include "MaintenanceTask.hpp"
+#include "MaintenanceTask.h"
 
-MaintenanceTask::MaintenanceTask(std::string name, std::string desc, std::vector<std::string> applicableTypes)
-    : taskName(name), description(desc), applicableVehicleTypes(applicableTypes) {}
+MaintenanceTask::MaintenanceTask(std::string name, std::string desc, std::vector<std::string> types)
+    : taskName(name), description(desc), applicableTypes(types) {}
 
 std::string MaintenanceTask::getTaskName() const { return taskName; }
 std::string MaintenanceTask::getDescription() const { return description; }
-std::vector<std::string> MaintenanceTask::getApplicableTypes() const { return applicableVehicleTypes; }
-
-bool MaintenanceTask::isApplicableTo(const std::string& vehicleType) const {
-    return std::find(applicableVehicleTypes.begin(), applicableVehicleTypes.end(), vehicleType) != applicableVehicleTypes.end();
-}
+const std::vector<std::string>& MaintenanceTask::getApplicableTypes() const { return applicableTypes; }

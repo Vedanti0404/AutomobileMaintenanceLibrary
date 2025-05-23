@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/unit_tests.dir/tests/test.cpp.o CMakeFiles/unit_tests.dir/src/Automobile.cpp.o CMakeFiles/unit_tests.dir/src/MaintenanceTask.cpp.o CMakeFiles/unit_tests.dir/src/MaintenanceLibrary.cpp.o -o unit_tests.exe -Wl,--out-implib,libunit_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0

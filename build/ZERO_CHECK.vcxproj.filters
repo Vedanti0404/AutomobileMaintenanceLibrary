@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Companies\KPIT\Project\Automobile_Maintenance_Library\build\CMakeFiles\befbfe28ba89687532e98c4f18d81f26\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B539A1D7-1DD7-356D-9DC3-B4A1270373C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
